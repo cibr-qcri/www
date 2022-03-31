@@ -5,7 +5,7 @@
       var shiftWindow = function () {
         scrollBy(0, -85);
       };
-      window.addEventListener("hashchange", shiftWindow);
+      window.addEventListener('hashchange', shiftWindow);
       function load() {
         if (window.location.hash) shiftWindow();
       }
@@ -134,7 +134,8 @@
         <div class="row">
           <div class="col-sm-10 mx-auto">
             <p class="lead m-0">
-              A focused research effort on cybersecurity for web3, cryptocurrencies, and related blockchain technologies.
+              A focused research effort on cybersecurity for web3,
+              cryptocurrencies, and related blockchain technologies.
             </p>
           </div>
         </div>
@@ -149,6 +150,18 @@
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
                 <span class="badge badge-secondary">New</span>
+                Our
+                <a href="https://www.hbku.edu.qa/en/SIP22" target="_blank"
+                  >2022 Summer Internship Program</a
+                >
+                is now open. Apply now to work on a
+                <a
+                  href="doc/internship/2022_qcri_internship_program.pdf"
+                  target="_blank"
+                  >DeFi Robo-Advisor!</a
+                >
+              </li>
+              <li class="list-group-item">
                 The
                 <a href="doc/workshop/3rd_cibr_workshop.pdf" target="_blank"
                   >3rd CIBR Workshop</a
@@ -354,6 +367,24 @@
                   Cybersecurity, QCRI
                 </div>
               </li>
+              <li class="media align-items-center my-4">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/al-jawaheri.jpg"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://scholar.google.com/citations?user=jo1jpdMAAAAJ"
+                      target="_blank"
+                      >Husam Al Jawaheri</a
+                    >
+                  </h6>
+                  Blockchain Engineer, CIBR
+                </div>
+              </li>
             </ul>
           </div>
 
@@ -458,18 +489,18 @@
                 <div class="people-image mr-3">
                   <img
                     class="mx-auto rounded-circle d-block"
-                    src="img/people/al-jawaheri.jpg"
+                    src="img/people/ahmed.jpeg"
                   />
                 </div>
                 <div class="media-body">
                   <h6 class="mt-0 mb-1">
                     <a
-                      href="https://scholar.google.com/citations?user=jo1jpdMAAAAJ"
+                      href="https://qa.linkedin.com/in/ahmedalsaadi"
                       target="_blank"
-                      >Husam Al Jawaheri</a
+                      >Ahmed Al Saadi</a
                     >
                   </h6>
-                  Software Engineer, QuickByte
+                  R&D Engineer, QEERI
                 </div>
               </li>
             </ul>
@@ -493,24 +524,6 @@
                   Software Engineer, Amazon
                 </div>
               </li>
-              <li class="media align-items-center my-4">
-                <div class="people-image mr-3">
-                  <img
-                    class="mx-auto rounded-circle d-block"
-                    src="img/people/ahmed.jpeg"
-                  />
-                </div>
-                <div class="media-body">
-                  <h6 class="mt-0 mb-1">
-                    <a
-                      href="https://qa.linkedin.com/in/ahmedalsaadi"
-                      target="_blank"
-                      >Ahmed Al Saadi</a
-                    >
-                  </h6>
-                  R&D Engineer, QEERI
-                </div>
-              </li>
             </ul>
           </div>
         </div>
@@ -523,9 +536,10 @@
         <div class="row mt-4">
           <div class="col-sm-8 mx-auto">
             <p class="lead">
-              Our research is focused on cybersecurity problems in web3, cryptocurrencies, 
-              and related blockchain technologies. We work with our partners on research projects 
-              that support the thriving blockchain ecosystem in Qatar and abroad.
+              Our research is focused on cybersecurity problems in web3,
+              cryptocurrencies, and related blockchain technologies. We work
+              with our partners on research projects that support the thriving
+              blockchain ecosystem in Qatar and abroad.
             </p>
             <p class="lead m-0">
               Visit our <a href="research.html">research page.</a>
@@ -535,7 +549,7 @@
             <img
               class="mx-auto"
               src="img/icons/idea.png"
-              style="max-height: 7rem;"
+              style="max-height: 7rem"
             />
           </div>
         </div>
@@ -560,7 +574,7 @@
             <img
               class="mx-auto"
               src="img/icons/contact.png"
-              style="max-height: 7rem;"
+              style="max-height: 7rem"
             />
           </div>
         </div>
@@ -645,15 +659,15 @@
     <script src="lib/js/popper.min.js"></script>
     <script src="lib/js/bootstrap.min.js"></script>
     <script type="text/javascript">
-      $("a").click(function (event) {
+      $('a').click(function (event) {
         if (event.target.href == window.location.href) {
           event.preventDefault();
         }
       });
-      $("#header .navbar-nav a").click(function () {
-        if ($(this).parent("li.active").length == 0) {
-          $("#header .navbar-nav").find("li.active").removeClass("active");
-          $(this).parent("li").addClass("active");
+      $('#header .navbar-nav a').click(function () {
+        if ($(this).parent('li.active').length == 0) {
+          $('#header .navbar-nav').find('li.active').removeClass('active');
+          $(this).parent('li').addClass('active');
         }
       });
     </script>
@@ -667,9 +681,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "UA-128057597-1");
+      gtag('config', 'UA-128057597-1');
     </script>
   </body>
 </html>
