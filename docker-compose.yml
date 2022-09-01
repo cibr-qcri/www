@@ -1,0 +1,17 @@
+#   port mappings
+#
+#   service         local -> host
+#   ------------------------------
+#   proxy           80  -> 9090
+version: '3.3'
+services:
+  proxy:
+    build:
+      context: ./proxy
+    ports:
+      - '9090:80'
+    restart: always
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./src:/usr/share/nginx/html
