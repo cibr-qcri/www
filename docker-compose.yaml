@@ -2,16 +2,16 @@
 #
 #   service         local -> host
 #   ------------------------------
-#   proxy           80  -> 9090
+#   web           80    -> 9090
+
 version: '3.3'
 services:
-  proxy:
+  web:
     build:
-      context: ./proxy
+      context: ./web
     ports:
       - '9090:80'
     restart: always
     stdin_open: true
     tty: true
-    volumes:
-      - ./src:/usr/share/nginx/html
+    
