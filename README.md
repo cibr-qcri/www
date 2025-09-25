@@ -1,5 +1,5 @@
 <p align="center">
-     <img src="src/img/logo/cibr.jpg"
+     <img src="web/img/logo/cibr.jpg"
           alt="Cybersecurity Initiative for Blockchain Research (CIBR) logo"
           height="80px"/>
 </p>
